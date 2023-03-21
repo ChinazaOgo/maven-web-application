@@ -1,1 +1,5 @@
-
+email=chinazaobiagazie@yahoo.com
+##always-auth=true
+_auth=ZG9taW5pb246YWRtaW4xMjM=
+# echo -n 'dominion:admin123' | openssl base64
+allowRepublish=true
