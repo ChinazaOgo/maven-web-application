@@ -1,1 +1,28 @@
 
+ows
+    Other Systems
+    Offline Installations
+    Initial Settings
+Jenkins installation:
+    1. Accros platform like:
+        Linux 
+        Windows 
+        MacOS  
+        Solaris 
+Jenkins installation in redhat enterprise Linux 8 OS:
+https://www.jenkins.io/doc/book/installing/linux/#red-hat-centos
+
+ connect to the jenkins server in AWS CLoud:
+    userName: ec2-user 
+    remoteHost address: 54.159.1.197  
+    password/ssh-keys: dominion.pem 
+    port22 is open in the firewall (security group) 
+   ssh -i dominion ec2-user@54.159.1.197  
+
+   We also need an ssh-client software like: 
+     mobaXterm / 
+     pUTTY
+   WE CAN also USE GIT BASH  or 
+   terminal(macOS users)  
+
+Jenkins-install.sh  
